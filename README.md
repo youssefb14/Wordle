@@ -1,53 +1,51 @@
-ORGANISTION
+# Projet Wordle Multijoueur
 
-Voici un guide simple étape par étape pour que tous les membres du groupe puisse travailler correctement.
+## Introduction
+Le projet Wordle Multijoueur est une adaptation du célèbre jeu de mots Wordle, étendu pour supporter la fonctionnalité multijoueur. Ce projet permet à plusieurs joueurs de s'affronter en temps réel, enrichissant l'expérience classique de Wordle avec des éléments compétitifs et collaboratifs.
 
-Clonage du projet :
+## Vue d'ensemble du jeu
 
-1. Ouvrez un terminal (invite de commande) sur votre ordinateur.
+### Qu'est-ce que Wordle ?
+Wordle est un jeu de réflexion basé sur les mots où l'objectif est de deviner un mot cible à l'aide d'indices colorés pour chaque essai. Dans cette version multijoueur, les joueurs se concurrencent pour deviner le mot en premier, avec des règles supplémentaires pour synchroniser les tentatives et gérer les interactions en temps réel.
+
+### Règles du jeu
+- Le joueur doit deviner un mot de x lettres en un maximum de 5 essais.
+- Chaque lettre du mot proposé reçoit un retour coloré :
+  - Vert : Lettre correcte et bien placée.
+  - Orange : Lettre correcte mais mal placée.
+  - Rouge : Lettre incorrecte.
+- En mode multijoueur, des règles supplémentaires assurent la synchronisation des tentatives et les interactions en temps réel entre les joueurs.
+
+### Déroulement d'une partie
+1. Un mot cible est choisi aléatoirement par le jeu.
+2. Les joueurs saisissent leurs propositions.
+3. Le jeu fournit des indices colorés pour chaque lettre du mot proposé.
+4. Les joueurs continuent à proposer des mots jusqu'à ce qu'ils trouvent le mot cible ou épuisent leurs essais.
+5. Le jeu se termine lorsque le mot est deviné ou lorsque les essais sont épuisés, révélant le mot si nécessaire.
+
+## Description du projet
+Ce projet documente le développement d'une adaptation en langue française de Wordle, spécifiquement conçue pour les interactions multijoueurs en ligne. Il intègre la communication en temps réel utilisant les websockets et utilise des frameworks d'IA pour créer un gameplay dynamique et réactif.
+
+### Contexte et objectifs
+Le projet vise à transformer Wordle en une expérience multijoueur en ligne enrichissante, testant le vocabulaire des utilisateurs et encourageant une compétition saine. Les fonctionnalités clés incluent :
+- Jeux multijoueurs en ligne.
+- Synchronisation en temps réel des actions des joueurs.
+- Intégration d'un joueur IA pour défier les utilisateurs avec différents niveaux de difficulté.
+
+### Méthodologie
+Le projet suit une méthodologie de développement agile, permettant une adaptation continue en fonction des retours et des exigences évolutives. Chaque membre de l'équipe est responsable d'une composante spécifique du logiciel.
+
+## Architecture
+Le projet utilise une architecture Modèle-Vue-Contrôleur (MVC) :
+- **Modèle** : Gère les données et la logique du jeu (par exemple, la validation et la sélection des mots).
+- **Vue** : Gère l'interface utilisateur pour les modes local et en ligne.
+- **Contrôleur** : Facilite l'interaction entre le modèle et les vues, gérant la logique du jeu et les communications réseau.
+
+## Installation et utilisation
+
+### Cloner le projet
+1. Ouvrez un terminal sur votre ordinateur.
 2. Naviguez vers le répertoire où vous souhaitez cloner le projet.
-3. Utilisez la commande git clone suivie de l'URL du dépôt GitLab :
-
-git clone https://gitlab.com/ceri-projet-programmation-2023/semestre2-groupe3.git
-
-Chaque membre du groupe possède sa propre branche dédiée au sein du projet, en plus de la branche principale "main". Cela signifie qu'il y a cinq branches distinctes, une pour chaque membre du groupe, où nous pouvons travailler de manière indépendante sur nos tâches et nos contributions.
-
-Chaque membre peut ainsi ajouter, committer et pousser ses modifications dans sa propre branche sans interférer avec le travail des autres membres.
-
-Liste des branches :
-
-- youssef-boudount
-- anthony-genti
-- louis-rives
-- samy-seghir
-
-Aller dans sa propre branche :
-
-1. Une fois le projet cloné, naviguez dans le répertoire du projet en utilisant la commande cd.
-
-   "git checkout `<nom-de-votre-branche-personelle>`"
-
-Ajout de modifications :
-
-1. Travaillez sur vos fichiers DANS VOTRE BRANCHE dans le répertoire du projet.
-2. Pour ajouter toutes vos modifications pour le prochain commit, utilisez la commande
-
-   "git add ."
-
-Commit :
-
-1. Ensuite, committez vos modifications avec un message descriptif en utilisant la commande git commit :
-
-   "git commit -m "Votre message descriptif" "
-
-Pousser vos modifications sur GitLab :
-
-1. Enfin, poussez vos modifications vers VOTRE BRNACHE sur GitLab avec la commande :
-
-   "git push origin `<nom-de-votre-branche>`"
-
-ATTENTION : Assurez-vous d'utiliser le nom correct de votre branche.
-
-Remarque : Pour éviter de saisir votre ID GitLab et votre mot de passe à chaque PUSH Git, vous pouvez utiliser un gestionnaire de trousseaux :
-
-    "git config --global credential.helper manager"
+3. Exécutez la commande :
+   ```bash
+   git clone https://gitlab.com/ceri-projet-programmation-2023/semestre2-groupe3.git
