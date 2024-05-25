@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-20">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/jansi-2.3.4.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/jsoup-1.16.1.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/commons-lang3-3.13.0/commons-lang3-3.13.0.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/commons-lang3-3.13.0/commons-lang3-3.13.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/commons-lang3-3.13.0/commons-lang3-3.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/commons-lang3-3.13.0/commons-lang3-3.13.0-tests.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/commons-lang3-3.13.0/commons-lang3-3.13.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/gson/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpclient5-5.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpclient5-cache-5.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpclient5-fluent-5.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpclient5-testing-5.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpclient5-win-5.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpcore5-5.2.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpcore5-h2-5.2.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpcore5-reactive-5.2.jar"/>
+	<classpathentry kind="lib" path="E:/UNIVERSITE/depots/projet programmation/semestre2-groupe3/Libs/JAR/httpcomponents-client-5.2.1-bin/httpcore5-testing-5.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JFX"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
